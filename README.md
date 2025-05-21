@@ -111,7 +111,7 @@ read -p "Enter username: " USER && read -s -p "Enter password: " PASS && echo &&
 ~~~
 #### grab the service helper script
 ~~~sh
-wget -O ~/generate-traefik-config.sh https://raw.githubusercontent.com/W7SVT/proxmox-traefikproxy-cloudflaretunnel/refs/heads/main/generate-traefik-config.sh
+wget -O ~/generate-traefik-config.sh https://github.com/sfnemis/proxmox-traefikproxy-cloudflaretunnel/refs/heads/main/generate-traefik-config.sh
 chmod +x generate-traefik-config.sh
 ~~~
 > After completing these steps, ensure your Traefik service is restarted or reloaded so it picks up the new configuration.
